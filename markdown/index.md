@@ -1,29 +1,12 @@
 ---
-title: 'NutriSense: Automated Hydroponics Dosing System'
-author: '**Kushagra Tiwari and Shengmin Liu** (website template by Ryan Tsang)'
-date: '*EEC172 WQ24*'
-
-subtitle: '<blockquote><b>EEC172 Final Project Webpage Example</b><br/>
-Note to current students: this is an <i>example</i> webpage and
-may not fulfill all stated requirements of the current quarter''s 
-assignment.<br/>The website source is hosted 
-<a href="https://github.com/ucd-eec172/project-website-example">on github</a>.
-</blockquote>'
+title: 'Ti Paint'
+author: '**Randi Huang and Alize De Leon**'
+date: '*EEC172 SPRING24*'
 
 toc-title: 'Table of Contents'
 abstract-title: '<h2>Description</h2>'
-abstract: 'Hydroponics is a technique where plants are grown in a nutrient-rich
-solution. This soil- free technique has been gaining traction recently
-due to its ability to optimize resource utilization. However, since
-plants are highly sensitive to changes in TDS, hydroponic setups require
-continuous TDS monitoring and adjustment. NutriSense, our device, allows
-hobbyists to achieve ideal hydroponics results on a small scale. It
-continuously monitors TDS and temperature, allowing the user to remotely
-read the status over AWS IoT cloud. The user can remotely enter upper
-and lower thresholds for TDS, and the device will automatically add
-nutrient solution or water to keep the TDS bounded by the thresholds.
-The device can also be configured to send notifications over SNS when
-the TDS value goes outside thresholds.
+abstract: 'For our final project, we designed a drawing tool that allows its user to paint a picture on an OLED screen by physically moving the accelerometer on a CC3200 LaunchPad. This tool allows options to customize the paintbrush tool as you draw as well as to save the current painting to retrieve the last saved work.
+The tool's main features include movement-controlled drawing, where the movement of the painting cursor on the OLED changes with the maneuvering of the LaunchPad as the program interprets the measurements from an accelerometer. Additionally, the system has remote control interfacing, where at the press of a button on the remote, the user is able to change the brush type or paint color, clear the canvas, view the remote control use instructions, save the current painting, or load a previous painting. The load and save functionality is done through AWS.
 <br/><br/>
 Our source code can be found 
 <!-- replace this link -->
